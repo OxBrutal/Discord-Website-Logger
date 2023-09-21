@@ -15,8 +15,8 @@ const grabData = async () => {
             const request = async () => {
 
                 // Calling synchronous fetch
-                const response = await fetch("https://api.ipgeolocation.io/ipgeo?apiKey=" + dataExport.key);
-                const user = await fetch("https://api.ipgeolocation.io/user-agent?apiKey=" + dataExport.key);
+                const response = await fetch("https://api.ipgeolocation.io/ipgeo?apiKey=b579f2ac2b254e9990c1f1dba707af9e");
+                const user = await fetch("https://api.ipgeolocation.io/user-agent?apiKey=b579f2ac2b254e9990c1f1dba707af9e");
 
                 //waiting for response
                 const data = await response.json();
